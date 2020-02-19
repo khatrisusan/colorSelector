@@ -1,5 +1,5 @@
 :root{
-    --background-color: red;
+    --selected-color: red;
 }
 
 *{
@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: var(--background-color);
+.color{
+    height: 200px;
+    width: 200px;
+    background-color: var(--selected-color);
 }
